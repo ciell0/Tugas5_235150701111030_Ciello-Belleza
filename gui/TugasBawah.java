@@ -211,7 +211,7 @@ public class TugasBawah extends javax.swing.JFrame {
                     "Konfirmasi", JOptionPane.OK_CANCEL_OPTION, JOptionPane.QUESTION_MESSAGE);
             
             if (response == JOptionPane.OK_OPTION) {
-                // Jika user menekan OK, tampilkan jendela baru dengan data yang telah diisi
+                // Jika user menekan OK, hilangkan halaman pendataan mahasiswa
                 this.dispose();
                 
                 // menyimpan input dalam variabel agar dapat dimasukkan dalam constuctor data mahasiswa
